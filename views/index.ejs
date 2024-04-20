@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Shortener</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-primary h-screen">
+    <h1 class="text-4xl py-4 text-secondary uppercase text-center">URL Shortener</h1>
+    <div class="flex flex-col items-center">
+        <input class="w-3/6 px-4 py-2 rounded-lg text-xl my-4 focus:outline-none focus:ring-2 focus:ring-black-400"
+            type="text" name="url" id="urlInput" placeholder="Enter your URL...">
+        <!-- <input class="bg-white w-3/6 p-2 text-center my-4 rounded-lg text-xl h-12 " type="text" name="" id="urlOutput" disabled> -->
+        <div class="bg-white w-3/6 h-12 p-2 text-center my-4 rounded-lg text-xl" id="urlOutput">
+        </div>
+        <button id="submitBtn"
+            class="px-8 text-xl py-2 bg-green-700 text-white bg-secondary rounded-lg my-3 shadow-md hover:bg-gray-700   focus:outline-none focus:ring-2 focus:ring-green-400">Shorten!</button>
+
+    </div>
+    <script src="/client.js"></script>
+</body>
+
+</html>

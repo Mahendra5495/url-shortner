@@ -1,0 +1,19 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore built files
+/build
+
+# Ignore log files
+logs/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore environment configuration files
+.env
+
+# Ignore any other temporary or generated files
+*.log
+*.txt
+*.json
